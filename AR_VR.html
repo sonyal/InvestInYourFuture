@@ -15,16 +15,20 @@ webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
           allowfullscreen="" style="position: absolute;">
         </iframe>
         <script src="https://www.istaging.com/js/iframe-enable-gyro.min.js"></script>    <div class="container"; id="CAROUSEL"; z-index: 8990; style="padding-top:60vh; background-color: white;" width: 50%;>
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+      <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
           <div class="carousel-item active" style="color: white; text-align: center; border-radius: 13px; left: -0%; background: rgba(46, 134, 193, 0.6);">
-            <input class="btn btn-primary" type="button" value="Equity" onclick="testing()">
+            <input class="btn btn-primary" type="button" value="Equity" onclick="testing()" id="toggle">
+            
           </div>
+
         </div>
     </div><script>
  var pageIndex=1; function testing(){
 document.getElementById("link").src="https://livetour.istaging.com/65b8c0e5-ae97-47f5-96c8-b60c38f460e7?_ga=2.104323328.1292972431.1569625064-1859026199.1569244591&index=2";
-} function pageIncrease(){
+document.getElementById("toggle").style.visibility="hidden";
+} 
+  function pageIncrease(){
     pageIndex++;
     document.getElementById("link").src="https://livetour.istaging.com/65b8c0e5-ae97-47f5-96c8-b60c38f460e7?_ga=2.104323328.1292972431.1569625064-1859026199.1569244591&index="+pageIndex;
  }
