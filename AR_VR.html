@@ -1,80 +1,311 @@
-<!-- <iframe width="100%" height="600" allow="autoplay; gyroscope; accelerometer" 
-src="https://livetour.istaging.com/3d0ad527-48db-4ec3-a5c6-22a4d9525988?ui=true" frameborder="0" 
-webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+
+
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> </title>
-    <meta name="description" content="This is a description of my virtual tour.">
-    <meta name="author" content="My website name">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--       <link rel="stylesheet" href="assets/css/main.css" />
-                <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-        <link rel="shortcut icon" type="image/png" href="/img/faviconLogo.png"/>  -->
-    <!--Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-
-<body style="margin: 0%"> <iframe width="100%" ; height="100%" ; z-index: 900; style="position:fixed" ; id="link" ;
-        frameborder="0" ; allowfullscreen="" style="position: absolute;">
-    </iframe>
-    <script src="https://www.istaging.com/js/iframe-enable-gyro.min.js"></script>
-    <div class="container" ; id="CAROUSEL" ; z-index: 8990; style="padding-top:60vh; background-color: white;" width:
-        50%;>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+    <head>
+    
+    ​
+    
+            <meta charset="utf-8">
+    
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+            <title> </title>
+    
+            <meta name="description" content="This is a description of my virtual tour.">
+    
+            <meta name="author" content="My website name">
+    
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+            <link rel="stylesheet" href="assets/css/main.css" />
+    
+                    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    
+            <link rel="shortcut icon" type="image/png" href="/img/faviconLogo.png"/>
+    
+    ​
+    
+        <!--Bootstrap CDN -->
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    ​
+    
+    ​
+    
+    </head>
+    
+    ​
+    
+    ​
+    
+    <body style="margin: 0%">
+    
+    ​
+    
+    ​
+    
+    ​
+    
+            <iframe width="100%"; height="100%"; z-index: 900; style="position:fixed"; id="link"; frameborder="0";
+    
+              allowfullscreen="" style="position: absolute;">
+    
+            </iframe>
+    
+            <script src="https://www.istaging.com/js/iframe-enable-gyro.min.js"></script>
+    
+    ​
+    
+    ​
+    
+    ​
+    
+        <div class="container"; id="CAROUSEL"; z-index: 8990; style="padding-top:60vh; background-color: white;" width: 50%;>
+    
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+    
             <div class="carousel-inner">
-                <div class="carousel-item active left"
-                    style="color: white; text-align: center; border-radius: 13px; left: -10%;">
-                    <input class="btn btn-primary" type="button" value="Fortune Teller" onclick="testing()" id="toggle">
-                </div>
-                <div class="carousel-item active center"
-                    style="color: white; text-align: center; border-radius: 13px; left: -0%;">
-                    <input class="btn btn-primary" type="button" value="Bank" onclick="testing()" id="toggle">
-                </div>
-                <div class="carousel-item active right"
-                    style="color: white; text-align: center; border-radius: 13px; left: 8%;">
-                    <input class="btn btn-primary" type="button" value="Home" onclick="testing()" id="toggle">
-                </div>
+    
+              <div class="carousel-item active" style="color: white; text-align: center; border-radius: 13px; left: -0%; background: rgba(46, 134, 193, 0.6);">
+    
+                "You served the wrong dish to a wrong customer again..and your boss is FURIOUS. Unfortunately, you're now fired. But you have student debt to pay and need to make money quick (or at least while you're not working).
+    
+                            To learn more about how to do this go right to visit a bank or left to see a forutune teller (not advised)."
+    
+              </div>
+    
+              <div class="carousel-item" style="color: white; text-align: center; border-radius: 13px; left: -0%; background: rgba(46, 134, 193, 0.6); ">
+    
+                "Max will be your finanical advisor, she tells you that there are two good ways to make your money grow. Savings or Equity. To learn more about equiy go right, for savings, go left. "
+    
+              </div>
+    
+              <div class="carousel-item" style="color: white; text-align: center; border-radius: 13px; left: -0%; background: rgba(46, 134, 193, 0.6); ">
+    
+              "This is Warren Buffet - the most successful investor in the world. Say 'Hi'. This is his investment advice in a sentence:"
+    
+                        <p>"If you're young, take risks. Invest more and let it grow. Patience is the secret to my success."</p>
+    
+                        <div class="form-group">
+    
+        <label for="exampleFormControlSelect1">Select an amount to invest</label>
+    
+        <select class="form-control" id="exampleFormControlSelect1">
+    
+          <option value="50">$50</option>
+    
+          <option value="100">$100</option>
+    
+          <option value="200">$200</option>
+    
+          <option value="500">$500</option>
+    
+          <option value="1000">$1000</option>
+    
+        </select>
+    
+            <label for="exampleFormControlSelect2">Select the number of years passed</label>
+    
+            <select class="form-control" id="exampleFormControlSelect2">
+    
+                <option>1</option>
+    
+                <option>2</option>
+    
+                <option>5</option>
+    
+                <option>10</option>
+    
+                <option>50</option>
+    
+            </select>
+    
+            <p></p>
+    
+            <div class="form-check">
+    
+             <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    
+             <label class="form-check-label" for="exampleCheck1">Yearly Contribution of $5000</label>
+    
+           </div>
+    
+             <div class="form-check">
+    
+         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    
+         <label class="form-check-label" for="exampleCheck1">No Yearly Contribution</label>
+    
+     </div>
+    
+    ​
+    
+      </div>
+    
+              </div>
+    
+    ​
+    
+                        <div class="carousel-item" style="color: white; text-align: center; border-radius: 13px; left: -0%; background: rgba(46, 134, 193, 0.6);">
+    
+                        <p>"This is you 50 years from now. Congratulation, you still look good.
+    
+                                <p></p>
+    
+                                And on average you had a 7% return rate on you investment, but you're didn't invest more money - you now have
+    
+                                that you now $1822.45 saved"</p>
+    
+                        </div>
+    
+    ​
+    
             </div>
+    
+            <a class="carousel-control-prev" href="#carouselExampleFade" onclick="pageDecrease()" role="button" data-slide="prev" style="position:fixed; left:0 !important;">
+    
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    
+              <span class="sr-only">Previous</span>
+    
+            </a>
+    
+            <a class="carousel-control-next" href="#carouselExampleFade" onclick="pageIncrease()" role="button" data-slide="next" style="position:fixed; right:0 !important;">
+    
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    
+              <span class="sr-only">Next</span>
+    
+            </a>
+    
         </div>
-        <script>
-            var pageIndex = 1; function testing() {
-                document.getElementById("link").src = "https://livetour.istaging.com/65b8c0e5-ae97-47f5-96c8-b60c38f460e7?_ga=2.104323328.1292972431.1569625064-1859026199.1569244591&index=2";
-                document.getElementById("toggle").style.visibility = "hidden";
-            }
-
-            function pageIncrease() {
-                pageIndex++;
-                document.getElementById("link").src = "https://livetour.istaging.com/65b8c0e5-ae97-47f5-96c8-b60c38f460e7?_ga=2.104323328.1292972431.1569625064-1859026199.1569244591&index=" + pageIndex;
-            }
-            function pageDecrease() {
-                pageIndex--;
-                document.getElementById("link").src = "https://livetour.istaging.com/65b8c0e5-ae97-47f5-96c8-b60c38f460e7?_ga=2.104323328.1292972431.1569625064-1859026199.1569244591&index=" + pageIndex;
-            } document.getElementById("link").src = "https://livetour.istaging.com/65b8c0e5-ae97-47f5-96c8-b60c38f460e7?_ga=2.104323328.1292972431.1569625064-1859026199.1569244591&index=" + pageIndex;</script>
-        <script>
-            $("#CAROUSEL").on('slide.bs.carousel', function () {
-                pageIncrease();
-            });
-        </script> <!-- Scripts -->
+    
+    ​
+    
+    ​
+    
+    ​
+    
+    ​
+    
+    ​
+    
+    <script>
+    
+     var pageIndex=1;
+    
+    ​
+    
+     function What() {
+    
+         let val = document.getElementById("exampleFormControlSelect1").value();
+    
+    ​
+    
+    // 	 float sum = 0.0;
+    
+    // float val = 0.0;
+    
+    // float start = 200;
+    
+    // for(int i = 0; i < 29; i++) {
+    
+    // 	 val = start + (0.07*start);
+    
+    // 	 sum = sum + val;
+    
+    // 	 start = val;
+    
+    // }
+    
+    ​
+    
+         console.log("THIS IS VAL" + val);
+    
+     }
+    
+    ​
+    
+    ​
+    
+     function pageIncrease(){
+    
+        pageIndex++;
+    
+        document.getElementById("link").src="https://livetour.istaging.com/65b8c0e5-ae97-47f5-96c8-b60c38f460e7?_ga=2.104323328.1292972431.1569625064-1859026199.1569244591&index="+pageIndex;
+    
+     }
+    
+      function pageDecrease(){
+    
+        pageIndex--;
+    
+        document.getElementById("link").src="https://livetour.istaging.com/65b8c0e5-ae97-47f5-96c8-b60c38f460e7?_ga=2.104323328.1292972431.1569625064-1859026199.1569244591&index="+pageIndex;
+    
+     }
+    
+    ​
+    
+    ​
+    
+     document.getElementById("link").src="https://livetour.istaging.com/65b8c0e5-ae97-47f5-96c8-b60c38f460e7?_ga=2.104323328.1292972431.1569625064-1859026199.1569244591&index="+pageIndex;
+    
+    ​
+    
+    ​
+    
+    ​
+    
+    </script>
+    
+    ​
+    
+    <script>
+    
+    ​
+    
+        $("#CAROUSEL").on('slide.bs.carousel', function (){
+    
+        pageIncrease();
+    
+      });
+    
+    </script>
+    
+    ​
+    
+    ​
+    
+     <!-- Scripts -->
+    
         <script src="assets/js/jquery.min.js"></script>
+    
         <script src="assets/js/jquery.scrolly.min.js"></script>
+    
         <script src="assets/js/jquery.scrollex.min.js"></script>
+    
         <script src="assets/js/browser.min.js"></script>
+    
         <script src="assets/js/breakpoints.min.js"></script>
+    
         <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script> <!-- BOOSTRAP JQUERY -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-</body>
-
-</html>
+    
+        <script src="assets/js/main.js"></script>
+    
+    ​
+    
+        <!-- BOOSTRAP JQUERY -->
+    
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    </body>
+    
+    </html>
+    
+    
